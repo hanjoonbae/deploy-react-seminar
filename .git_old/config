@@ -1,0 +1,30 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "origin"]
+	url = https://github.com/SNULION-14th/deploy-react-seminar-professor.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "main"]
+	remote = origin
+	merge = refs/heads/main
+	vscode-merge-base = origin/main
+[branch "mingyu-week10"]
+	remote = origin
+	merge = refs/heads/mingyu-week10
+	vscode-merge-base = origin/mingyu-week10
+[branch "week10-RyuMyungHyun"]
+	remote = origin
+	merge = refs/heads/week10-RyuMyungHyun
+	vscode-merge-base = origin/week10-RyuMyungHyun
+[branch "week10-RyuMyungHyun-hw"]
+	remote = origin
+	merge = refs/heads/week10-RyuMyungHyun-hw
+	vscode-merge-base = origin/week10-RyuMyungHyun-hw
+	github-pr-owner-number = "SNULION-13th#deploy-react-seminar#20"
+[branch "week10-jongin-hw"]
+	remote = origin
+	merge = refs/heads/week10-jongin-hw
+	vscode-merge-base = origin/week10-jongin-hw
+	github-pr-owner-number = "SNULION-13th#deploy-react-seminar#7"
